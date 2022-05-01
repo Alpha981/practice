@@ -1,0 +1,96 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+
+header{
+    width: 100%; height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url("taj\ mahal.jpg");
+    background-size: cover;
+}
+
+nav{
+  width: 100%;  height: 8vh;
+  background-color: black;
+  color: rgb(22, 134, 231); display: flex; justify-content: space-between;
+  align-items: center; text-decoration: red; text-transform: uppercase;
+}
+
+nav .logo{
+    text-align: center; width: 20%;  background-color: seagreen;
+}
+
+nav .menu{
+width: 35%;   background-color: yellow; display: flex; justify-content: space-evenly;
+}
+nav .menu a {
+    text-decoration: none; color:black;
+}
+main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; color: white;
+}
+
+section{}
+
+section h3{
+     font-size: 30px; font-weight: 200;text-shadow: 1px 1px 2px blue;
+
+}
+ section h1{
+    font-size: 50px; font-weight: 600;text-shadow: 2px 1px 2px blue;
+    text-transform: uppercase;
+    margin: 30px 0 20px 0; }
+
+section p{
+font-size: 25px;
+word-spacing: 2px;
+margin-bottom: 30px;
+text-shadow: 1px 1px 1px blue;
+
+}
+
+section a{
+padding: 12px 30px;
+border-radius: 4px;
+text-transform: uppercase;
+font-size: 13px;
+font-weight: 400;
+letter-spacing: 1px;
+
+}
+
+section .btn1{
+    background-color: chartreuse;
+    color: black; text-decoration: none;
+}
+
+section .btn2{
+    background-color: chartreuse; text-decoration: none;
+    color: black;
+}
+
+
+.change_content:after{
+    content:"";
+    animation: changetext 10s infinite linear;
+    color: orange;
+}
+
+@keyframes changetext{
+    0%{content:"darjeeling";}
+    20%{content: "agra";}
+    40%{content: "goa";}
+    60%{content: "mumbai";}
+    80%{content: "hyderabad";}
+    100%{content: "kashmir";}
+    }
+
+
+
+
+
+

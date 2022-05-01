@@ -1,0 +1,43 @@
+.name {width:auto;
+float: center;
+margin: 0px; 
+}
+.form {float: right;}
+.clearfix {
+    clear: both;
+}
+.main-menu {
+    background-color: teal;
+    margin: 0px; 
+    padding: 0px;
+}
+.main-menu > ul {
+    list-style-type: none;
+}
+.main-menu > ul > li {
+    display: inline-block;
+}
+.main-menu > ul > li > a {
+    color: yellow;
+    display: block;
+    padding: 10px;
+    font-family: sans-serif;
+    text-decoration:none;
+}
+.main-menu > ul > li > a:hover {
+    background-color: orange;
+}
+.content {
+    background-color: red;
+    color: yellow;
+    text-size-adjust: small;
+
+}
+.address {
+    background-color: green;
+    color: honeydew;
+}
+.content1 {
+    background-color: hotpink;
+    color: black;
+}

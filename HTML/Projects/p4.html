@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head><title>registration form</title></head>
+  <body>
+      <form action="content.html" method="post"></form>
+       <h1 align=center><B>REGISTRATION FORM</B></h1>
+       <fieldset>
+           <legend>Basic Information</legend>
+           <label for="name">Name</label><br>
+           <input type="text" placeholder="your name" required> 
+           <br>
+           <label for="email">Email</label>   <br>
+           <input type="email" placeholder="email/gmail" required>
+           <br>
+           <label for="password">Password </label> <br> 
+           <input type="password" placeholder="password" required></imput>  <br>
+           <label>Gender</label> <br> 
+           <input type="radio" id="male"  value="male" name="user-gender">
+           <label for="male">Male</label>
+           <input type="radio" id="female"  value="female" name="user-gender">
+           <label for="female">female</label> <br>
+           <label for="date">DOB</label>
+           <input type="date"> 
+           <br>
+           <br>
+           <label for="job">Job Position</label>
+           <select id="job" required>
+            <optgroup label="developers"><option value="ios developer">ios Developer</option>
+                <option value="flutter developer">flutter Developer</option>
+                <option value="phyton developer">phyton Developer</option></optgroup> 
+            <optgroup label="languages"><option value="phyton">phyton</option>
+                <option value="java">java</option>
+                <option value="c++">c++</option>   </optgroup>        
+                <option value="web developer">Web Developer</option>
+                <option value="android developer">android developer</option>
+                <option value="ios developer">ios Developer</option>
+                <option value="flutter developer">flutter Developer</option>
+                <option value="phyton developer">phyton Developer</option>
+                <option value="php developer">php Developer</option></select> <br>
+            <h3>hobbies</h3>
+            <input type ="checkbox">cricket
+            <input type ="checkbox">football
+            <input type ="checkbox">volleyball
+            <input type ="checkbox">kabbadi
+            <input type ="checkbox">soccer
+            </fieldset>  
+         <br>
+
+         <input type="submit">
+         <BR>
+       <br> 
+         <input type="reset">
+    </body>  
+</html>
