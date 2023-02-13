@@ -1,0 +1,18 @@
+!pip install --target=$nb_path name
+
+
+from google.colab import drive
+drive.mount('/content/gdrive')
+
+
+import sys
+sys.path.append('/content/drive/MyDrive/ColabNotebooks')
+
+
+import name
+
+ngrok auth 2IgE3yYKpECC5JehZFVQMzCkqEO_64UJgnaLAFjwZ4h2eWQ6C
+
+### kaggle gpu
+from catboost import CatBoostClassifier
+model=CatBoostClassifier(task_type="GPU")

@@ -1,0 +1,1 @@
+c.NotebookApp.browser='C:/ProgramFiles/Google/Chrome/Application/chrome.exe %s'
